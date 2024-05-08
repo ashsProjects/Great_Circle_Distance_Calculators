@@ -51,12 +51,33 @@ See ./output for example on the previously mentioned 15 places in input
 
 ## Errors
 Possible errors and how to fix them:
-1. *Invalid radius*: make sure the radius you entered is a number or sinply press enter for default
-2. *Invalid formula*: make sure the formula is valid; enter (1, 2, or 3) or sinply press enter for default
-3. *File not found*: make sure the file exists and the path to that file is correct
-4. *Invalid lat/lon found in file*: make sure all lat/lon value are numbers when using own file
-5. *Invalid input found in file*: make sure there are either 2 (lat,lon) or 3 (name, lat, lon) values only and that they are separated by commas; spaces do not matter 
-6. *Coordinates out of bounds*: make sure all lats are within (-90, 90) and all lons are within (-180, 180)
+<table>
+    <tr>
+        <td>Invalid radius</td>
+        <td>make sure the radius you entered is a number or sinply press enter for default</td>
+    </tr>
+    <tr>
+        <td>Invalid formula</td>
+        <td>make sure the formula is valid; enter (1, 2, or 3) or sinply press enter for default</td>
+    </tr>
+    <tr>
+        <td>File not found</td>
+        <td>make sure the file exists and the path to that file is correct</td>
+    </tr>
+    <tr>
+        <td>Invalid lat/lon found in file</td>
+        <td>make sure all lat/lon value are numbers when using own file</td>
+    </tr>
+    <tr>
+        <td>Invalid input found in file</td>
+        <td>make sure there are either 2 (lat,lon) or 3 (name, lat, lon) values only and that they are separated by commas; spaces do not matter</td>
+    </tr>
+    <tr>
+        <td>Coordinates out of bounds</td>
+        <td>make sure all lats are within (-90, 90) and all lons are within (-180, 180)</td>
+    </tr>
+    
+</table>
 
 ## Dependencies
 - Java 20
@@ -65,7 +86,7 @@ Possible errors and how to fix them:
 ## Compiling
 Clone the repository using:
 ```bash
-$ git clone https://github.com/ashsProjects/Great_Circle_Distance_Calculator.git
+$ git clone https://github.com/ashsProjects/Great_Circle_Distance_Calculators.git
 ```
 Compile the Program:
 ```bash
