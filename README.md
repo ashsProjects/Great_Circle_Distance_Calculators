@@ -1,6 +1,21 @@
 # Great Circle Distance Calculator
 This program calculates the distances between coordinates using a possible of three formulas: Vincenty, Cosines, or Haversine. You can choose to use places through the command line or through a file. I would recommend using the file for more than 5 places as it becomes cumbersome to keep adding it through the shell. You can also choose to generate any number of places and then do the calculations. See input for options on interacting with the program, and see outputs for the output format.
 
+## Formulae
+Vincenty formula:
+$$\\Delta \sigma = arctan \frac{\sqrt{(cos\phi_2 \cdot sin(\Delta\lambda))^2 + (cos\phi_1 \cdot sin\phi_2 - sin\phi_1 \cdot cos\phi_2 \cdot cos(\Delta\lambda))^2}}{sin\phi_1 \cdot sin\phi_2 + cos\phi_1 \cdot cos\phi_2 \cdot cos(\Delta\lambda)}\$$
+
+Haversine formula:
+$$\\Delta \sigma = 2\cdot arcsin\sqrt{sin^2(\frac{\Delta\phi}{2})+(cos^2(\frac{\phi_1 + \phi_2}{2}) - sin^2(\frac{\Delta\phi}{2})) \cdot sin^2(\frac{\Delta\lambda}{2})}\$$
+
+Spherical Law of Cosines
+$$\\Delta \sigma = arccos(sin\phi_1 \cdot sin\phi_2 + cos\phi_1 \cdot cos\phi_2\ \cdot cos\Delta\lambda)\$$
+
+After determining the central angles using the formulae above, the distance can be determined by using:
+$$d = r \Delta\sigma\$$
+
+**Here $$\phi$$ is latitude, $$\lambda$$ is longitude, $$\delta$$ is change in, and subscripts denote the place
+
 ## Project Structure
 ```
 This package includes the following files.
