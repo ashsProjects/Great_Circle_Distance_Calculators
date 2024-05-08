@@ -14,7 +14,7 @@ $$\\Delta \sigma = arccos(sin\phi_1 \cdot sin\phi_2 + cos\phi_1 \cdot cos\phi_2\
 After determining the central angles using the formulae above, the distance can be determined by using:
 $$d = r \Delta\sigma\$$
 
-*Here $\phi$ is latitude, $\lambda$ is longitude, $\delta$ is change in, and subscripts denote 1st or 2nd coordinate
+*Here $\phi$ is latitude, $\lambda$ is longitude, $\Delta$ is change in, and subscripts denote 1st or 2nd coordinate
 
 ## Project Structure
 ```
