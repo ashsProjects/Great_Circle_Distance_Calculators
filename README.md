@@ -8,13 +8,13 @@ $$\\Delta \sigma = arctan \frac{\sqrt{(cos\phi_2 \cdot sin(\Delta\lambda))^2 + (
 Haversine formula:
 $$\\Delta \sigma = 2\cdot arcsin\sqrt{sin^2(\frac{\Delta\phi}{2})+(cos^2(\frac{\phi_1 + \phi_2}{2}) - sin^2(\frac{\Delta\phi}{2})) \cdot sin^2(\frac{\Delta\lambda}{2})}\$$
 
-Spherical Law of Cosines
+Spherical Law of Cosines:
 $$\\Delta \sigma = arccos(sin\phi_1 \cdot sin\phi_2 + cos\phi_1 \cdot cos\phi_2\ \cdot cos\Delta\lambda)\$$
 
 After determining the central angles using the formulae above, the distance can be determined by using:
 $$d = r \Delta\sigma\$$
 
-**Here $$\phi$$ is latitude, $$\lambda$$ is longitude, $$\delta$$ is change in, and subscripts denote the place
+*Here $\phi$ is latitude, $\lambda$ is longitude, $\delta$ is change in, and subscripts denote 1st or 2nd coordinate
 
 ## Project Structure
 ```
