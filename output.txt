@@ -1,0 +1,13 @@
+Distance from (place1,23.440,179.662) to (place2,27.399,31.806): 8322.14
+Distance from (place2,27.399,31.806) to (place3,87.070,30.723): 4123.16
+Distance from (place3,87.070,30.723) to (place4,-43.268,-42.070): 9144.25
+Distance from (place4,-43.268,-42.070) to (place5,30.335,24.176): 6587.58
+Distance from (place5,30.335,24.176) to (place6,-5.306,-81.892): 7361.16
+Distance from (place6,-5.306,-81.892) to (place7,-74.649,-154.781): 5555.59
+Distance from (place7,-74.649,-154.781) to (place8,89.522,-55.570): 11381.64
+Distance from (place8,89.522,-55.570) to (place9,5.311,-88.819): 5824.19
+Distance from (place9,5.311,-88.819) to (place10,-86.503,3.381): 6594.35
+Distance from (place10,-86.503,3.381) to (place1,23.440,179.662): 8079.54
+__________________________________________________________________________
+Total distance: 72973.60
+Parameters: (Num Places: 10, Formula: Vincenty, Radius: 3959.00)
